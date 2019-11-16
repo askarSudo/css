@@ -1,4 +1,4 @@
-body{background-image: linear-gradient(to left,  #CBDA2E 0%, #63AB26 50%, #72C227 100%);}
+body{background-color: #243B0F;}
 
 .menu {
     display: grid;
@@ -13,18 +13,18 @@ body{background-image: linear-gradient(to left,  #CBDA2E 0%, #63AB26 50%, #72C22
 
 .menu > a.menu_btn{
     padding: 2vw ;
-    background-color: #B4FF4D;
+    background-color: #72BA2F;
     font-size: 2vw;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     text-decoration: none;
     color:#505A2E;
-    box-shadow: 0 0.7vw 1vw rgba(0, 0, 0, .34);
+    box-shadow: 0 0.7vw 1vw rgba(0, 0, 0, .81);
     transition: .5s;
 }
 
 .menu > a.menu_btn:hover{
-    background-color: #F9FB78;
+    background-color: #98C66D;
     box-shadow: none;
 }
 
@@ -39,7 +39,7 @@ body{background-image: linear-gradient(to left,  #CBDA2E 0%, #63AB26 50%, #72C22
 
 .main_page_grid > div{
     padding: 1vw;
-    background-image: linear-gradient(to left,  #8FAC25 0%, #72B92E 50%, #CBDA2E 100%);
+    background-color: #72BA2F;
     background-size: 200%;
     background-position: 20%;
     box-shadow: 0 0.7vw 1vw rgba(0, 0, 0, .65);
@@ -47,17 +47,7 @@ body{background-image: linear-gradient(to left,  #CBDA2E 0%, #63AB26 50%, #72C22
 }
 .main_page_grid > div:hover{
     background-position: 40%;
-    box-shadow: none;
-}
-
-
-.main_page_grid > div.light{
-    padding: 1vw;
-    box-shadow: 0 0.7vw 1vw rgba(0, 0, 0, .65);
-    transition: .5s;
-    background-color: linear-gradient(to left,  #B4FF4D 0%, #B4FF4D 50%, #B4FF4D 100%);
-}
-.main_page_grid > div.light:hover{
+    background-color: #538722;
     box-shadow: none;
 }
 
@@ -69,6 +59,23 @@ body{background-image: linear-gradient(to left,  #CBDA2E 0%, #63AB26 50%, #72C22
 
 .box2{
     grid-row: 1/3;
+}
+
+button.Django_set{
+    margin-top: 3.5vw;
+    padding: 1vw 1vw;
+    background-color:  #98C66D;
+    color: #505A2E;
+    font-size: 2vw;
+    font-family: 'Helvetica', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: .5s;
+    border: none;
+}
+
+button.Django_set:hover{
+    background-color:#243B0F;
 }
 
 .box1_grid{
@@ -87,7 +94,7 @@ body{background-image: linear-gradient(to left,  #CBDA2E 0%, #63AB26 50%, #72C22
 
 .box1_grid > a.text_home{
     padding: 1vw;
-    background-color: #B4FF4D;
+    background-color: #98C66D;
     font-size: 1.2vw;
     text-overflow: nowrap;
     max-height: 20vw;
@@ -114,7 +121,6 @@ pre.text_{
     width: 78vw;
     max-width: 78vw;
     text-overflow: nowrap;
-
 }
 
 .img_on_stat{
@@ -132,10 +138,10 @@ pre.text_{
 }
 
 a.text_name{
-    margin-left: 32%;
+    margin-left: 20%;
     margin-top: 6vw;
     background-color: #B4FF4D;
-    font-size: 2vw;
+    font-size: 4vw;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     text-decoration: none;
@@ -145,8 +151,8 @@ a.text_name{
 
 .eag{
     position: absolute;
-    z-index: -100;
-    margin-left: -40vw;
+    z-index: -1200;
+    margin-left: -50vw;
     margin-top: 20vw;
 }
 
@@ -179,4 +185,68 @@ button.comment_btn{
 button.comment_btn:hover{
     box-shadow: none;
     transition: .5s;
+}
+
+img.img_3{
+    width: 20vw;
+    margin-left: 0.5vw;
+}
+
+.static_dj{
+    margin-top: 0.5vw;
+    margin-left: 0.5vw;
+    height: 4vw;
+    width: 20vw;
+    background-color:  #98C66D;
+    color: #505A2E;
+    font-size: 2vw;
+    font-family: 'Helvetica', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: .5s;
+    border: none;
+}
+
+.static_dj:hover{
+    background-color: #243B0F;
+}
+
+.css_btn{
+    margin-top: 11.8vw;
+    margin-left: -20.4vw;
+    height: 4vw;
+    width: 20vw;
+    background-color:  #98C66D;
+    color: #505A2E;
+    font-size: 2vw;
+    font-family: 'Helvetica', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: .5s;
+    border: none;
+    position: absolute;
+}
+
+.css_btn:hover{
+    background-color:  #243B0F;
+}
+
+.js_btn{
+    margin-top: 11.8vw;
+    margin-left: -20vw;
+    height: 4vw;
+    width: 20vw;
+    background-color:  #98C66D;
+    color: #505A2E;
+    font-size: 2vw;
+    font-family: 'Helvetica', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: .5s;
+    border: none;
+    position: absolute;
+}
+
+.js_btn:hover{
+    background-color:  #243B0F;
 }
